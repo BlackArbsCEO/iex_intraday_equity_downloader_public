@@ -1,0 +1,11 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+Created on Thu Jun 14 07:48:48 2018
+
+@author: bcr
+"""
+
+* 7-16 * * mon-fri /media/bcr/HDD/anaconda3/envs/bayes_dash/bin/python3.6 '/media/bcr/HDD/Code_Backups_Sync/iex_intraday_equity_downloader/src/data/iex_downloader.py' >> /media/bcr/HDD/Code_Backups_Sync/iex_intraday_equity_downloader/logs/equity_downloader_logs/iex_downloader_log.log
+
+* 7-16 * * mon-fri sleep 30; /media/bcr/HDD/anaconda3/envs/bayes_dash/bin/python3.6 '/media/bcr/HDD/Code_Backups_Sync/iex_intraday_equity_downloader/src/data/iex_downloader.py' >> /media/bcr/HDD/Code_Backups_Sync/iex_intraday_equity_downloader/logs/equity_downloader_logs/iex_downloader_log.log
