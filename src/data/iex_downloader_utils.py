@@ -3,7 +3,7 @@
 """
 Created on Wed Jun 13 16:00:07 2018
 
-@author: bcr
+@author: blackarbsceo
 """
 import pandas as pd
 import numpy as np
@@ -30,7 +30,7 @@ def write_to_parquet(df, root_path,
     df : pd.DataFrame
         formatted dataframe data
     root_path : str, data store directory
-    partition_cols : list of strings to partition parquet storage directory
+    partition_cols : list of columns (as str dtype) to partition parquet storage directory
     logger : logger object
     """
     if not logger: raise ValueError('must use logger object')

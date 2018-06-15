@@ -1,7 +1,21 @@
 iex_intraday_equity_downloader
 ==============================
 
-scripts to download and store iex equity data in parquet format
+Python scripts to automate the download and storage process of iex equity data in parquet format.
+
+## Some Notes:
+
+The task scheduler used is `crontab` which is available on linux systems. An example list of `crontab` tasks is located in `./src/data/iex_cronjob.txt`. If you use a different OS you will have to create your own scheduler to run the scripts. 
+
+You will also have to go to `./src/data/*` and update each python script with your local project directory.
+
+To run these scripts requires some additional dependencies:
+
+- [tzlocal](https://github.com/regebro/tzlocal)
+- [pandas_market_calendars](https://github.com/rsheftel/pandas_market_calendars)
+- [pyarrow](https://github.com/apache/arrow/tree/master/python)
+
+___
 
 Project Organization
 ------------
