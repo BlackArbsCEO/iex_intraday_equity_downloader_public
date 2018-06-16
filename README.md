@@ -14,6 +14,7 @@ To run these scripts requires some additional dependencies:
 - [tzlocal](https://github.com/regebro/tzlocal)
 - [pandas_market_calendars](https://github.com/rsheftel/pandas_market_calendars)
 - [pyarrow](https://github.com/apache/arrow/tree/master/python)
+- [fastparquet](https://github.com/dask/fastparquet/)
 
 ___
 
